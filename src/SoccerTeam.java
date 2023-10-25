@@ -3,7 +3,7 @@ import java.util.Objects;
 public class SoccerTeam extends SportsTeam {
     private int offsidesCount;
 
-    private SoccerTeam(String teamName, int teamSize, String coach, int count) {
+    public SoccerTeam(String teamName, int teamSize, String coach, int count) {
         super(teamName, teamSize, coach);
         this.offsidesCount = count;
     }
